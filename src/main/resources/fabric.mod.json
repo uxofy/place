@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fastplace",
+  "version": "${version}",
+  "name": "FastPlace",
+  "description": "Настраиваемая задержка постановки блоков (0-20 тиков).",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.fastplace.FastPlaceClient"]
+  },
+  "mixins": ["fastplace.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
